@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    
+}
+
+body {
+    background: #E9E9E9;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+
+}
+
+#header h2 {
+    width: 180px;
+    height: 31px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #10C0C6;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#login_button {
+    opacity: 0.8;
+    width: 94px;
+    height: 31px;
+    background: #10C0C6;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+#login_button:hover {
+    opacity: 1;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-top: 350px solid transparent;
+    border-bottom: 350px solid transparent;
+    border-left: 550px solid #10C0C6;
+    margin-top: -100;
+    position: absolute;
+    z-index: -1;
+ 
+}
+
+#goals {
+    text-align: center;
+    margin-top: 38px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #2D2D2D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#image {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    margin-left: -300px;
+}
+
+#image img {
+    width: 376px;
+    height: 281px;
+    border-radius: 10px;
+}
+
+#text {
+    margin-left: 35px;
+}
+
+#text h1 {
+    width: 291px;
+    height: 102px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #10C0C6;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#text h2 {
+    width: 478px;
+    height: 81px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2D2D2D;
+}
