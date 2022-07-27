@@ -1,12 +1,53 @@
+<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
     <title>YourFinance$ - Login</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="login.css">
+
 </head>
+
 <body>
-    tela login
+    <div id="back">
+        <div class="backRight"></div>
+        <div class="backLeft"></div>
+    </div>
+
+    <div id="slideBox">
+        <div class="topLayer">
+            <div class="left">
+                <div class="content">
+                    <h2>Registrar</h2>
+                    <form method="post" onsubmit="return false;">
+                        <div class="form-group">
+                            <input type="text" placeholder="Username" />
+                            <input type="password" placeholder="Password" />
+                        </div>
+                    </form>
+                    <button id="goLeft" class="off">Entrar</button>
+                    <button>Registrar</button>
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <h2>Entrar</h2>
+                    <form method="post" onsubmit="return false;">
+                        <div class="form-group">
+                            <input type="text" placeholder="Username" />
+                            <input type="password" placeholder="Password" />
+                        </div>
+                        <button id="goRight" class="off">Registrar</button>
+                        <button id="login" type="submit">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
